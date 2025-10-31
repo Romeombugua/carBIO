@@ -18,19 +18,19 @@ SASA is a real-time biogas monitoring system that simulates microcontroller-mete
 
 └───────────────┘ └──────────────────┘ └─────────────────┘
 
-│
-
-│ HTTP
-
-▼
-
-┌──────────────────┐
-
-│ React App │
-
-│ (Dashboard) │
-
-└──────────────────┘
+                                                            │
+                                                            
+                                                            │ HTTP
+                                                            
+                                                            ▼
+                                                            
+                                                            ┌──────────────────┐
+                                                            
+                                                            │ React App │
+                                                            
+                                                            │ (Dashboard) │
+                                                            
+                                                            └──────────────────┘
 
 ## Components
 
