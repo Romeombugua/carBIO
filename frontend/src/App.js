@@ -2,7 +2,6 @@ import { useHederaTopic, HederaStatus } from './hooks/useHedera';
 import Dashboard from './components/Dashboard';
 import './App.css';
 
-// Your Hedera Topic ID
 const HEDERA_TOPIC_ID = '0.0.7152310';
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
   
   // Format readings to match expected structure
   const formattedReadings = messages.map((msg) => {
-    console.log('Raw message:', msg); // Debug log
-    console.log('Meter ID from message:', msg.meter_id); // Debug log
+    console.log('Raw message:', msg); 
+    console.log('Meter ID from message:', msg.meter_id); 
     return {
       id: msg.sequence_number, // Use Hedera sequence_number for unique key
       meter_id: msg.meter_id || 'METER_001',
@@ -38,7 +37,7 @@ function App() {
       <header className="App-header">
         <div className="header-content">
           <img src="/Logos/Carbi__1_-removebg-preview.png" alt="CarBio Logo" className="carbio-logo" />
-          <h1>Gas Monitoring System</h1>
+          <h1>dMRV</h1>
         </div>
         <div className="status-bar">
           <HederaStatus topicId={HEDERA_TOPIC_ID} />
@@ -71,7 +70,6 @@ function App() {
           <div className="powered-by">
             <span>Powered by</span>
             <img src="/Logos/SASA_logo-removebg-preview.png" alt="SASA Logo" className="sasa-logo" />
-            <span>SASA</span>
           </div>
           <div className="footer-info">
             <p>

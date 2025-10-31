@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 /**
  * Hook to fetch messages directly from Hedera Mirror Node
- * No backend needed - reads straight from the blockchain!
  */
 export function useHederaTopic(topicId) {
   const [messages, setMessages] = useState([]);
@@ -18,7 +17,7 @@ export function useHederaTopic(topicId) {
 
     const fetchMessages = async () => {
       try {
-        // Hedera Mirror Node REST API (testnet)
+        // Hedera Mirror Node REST API
         const url = `https://testnet.mirrornode.hedera.com/api/v1/topics/${topicId}/messages?limit=100&order=desc`;
         
         const response = await fetch(url);
@@ -74,7 +73,7 @@ export function useHederaTopic(topicId) {
  * Component to display Hedera connection status
  */
 export function HederaStatus({ topicId }) {
-  const { messages, loading, error } = useHederaTopic(topicId);
+  const { loading, error } = useHederaTopic(topicId);
   
   if (loading) {
     return (
