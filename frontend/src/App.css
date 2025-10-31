@@ -1,0 +1,123 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #122220 0%, #1a2a25 50%, #122220 100%);
+  color: #ffffff;
+}
+
+.App-header {
+  background: rgba(98, 102, 73, 0.95);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(18, 34, 32, 0.3);
+  border-bottom: 2px solid #626649;
+}
+
+.App-header h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carbio-logo {
+  height: 100px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.status-bar {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.status-indicator {
+  font-weight: 500;
+}
+
+.status-indicator.connected {
+  color: #4ade80;
+}
+
+.status-indicator.disconnected {
+  color: #f87171;
+}
+
+.hedera-status {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.hedera-status.configured {
+  color: #60a5fa;
+}
+
+.hedera-status.not-configured {
+  color: #fbbf24;
+}
+
+.App-main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.App-footer {
+  background: rgba(98, 102, 73, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 2px solid #626649;
+  box-shadow: 0 -4px 20px rgba(18, 34, 32, 0.3);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.sasa-logo {
+  height: 50px;
+  width: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info a {
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-info a:hover {
+  color: #626649 !important;
+}

@@ -1,0 +1,91 @@
+.gas-level-card {
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(18, 34, 32, 0.15);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(98, 102, 73, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.gas-level-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #626649 0%, #122220 100%);
+}
+
+.gas-level-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(18, 34, 32, 0.25);
+  border-color: #626649;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-icon {
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #626649 0%, #122220 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(98, 102, 73, 0.3));
+}
+
+.card-header h3 {
+  color: #122220;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.card-value {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.value {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #122220;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.unit {
+  font-size: 1.3rem;
+  color: #626649;
+  font-weight: 500;
+}
+
+.text-value {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #122220;
+}
+
+.card-status {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  position: relative;
+  z-index: 1;
+}
