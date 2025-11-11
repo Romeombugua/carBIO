@@ -9,9 +9,9 @@ Please find our submission links below:
 
 *   Pitch deck: [https://drive.google.com/file/d/1I4TGvbNn5E2BMR8ZxC-AawAaKnPSz3Qs/view?usp=sharing](https://drive.google.com/file/d/1I4TGvbNn5E2BMR8ZxC-AawAaKnPSz3Qs/view?usp=sharing) 
     
-*   Ndanu Cert: [https://certs.hashgraphdev.com/41c661fe-fe7a-4452-a49f-f9e16284cba5.pdf](https://certs.hashgraphdev.com/41c661fe-fe7a-4452-a49f-f9e16284cba5.pdf) 
+*   Ndanu Certificate: [https://certs.hashgraphdev.com/41c661fe-fe7a-4452-a49f-f9e16284cba5.pdf](https://certs.hashgraphdev.com/41c661fe-fe7a-4452-a49f-f9e16284cba5.pdf) 
     
-Gatama Cert: [https://certs.hashgraphdev.com/aad62f4e-db5b-4c8f-95b8-31fc4f51f8e6.pdf](https://certs.hashgraphdev.com/aad62f4e-db5b-4c8f-95b8-31fc4f51f8e6.pdf)
+*   Gatama Certificate: [https://certs.hashgraphdev.com/aad62f4e-db5b-4c8f-95b8-31fc4f51f8e6.pdf](https://certs.hashgraphdev.com/aad62f4e-db5b-4c8f-95b8-31fc4f51f8e6.pdf)
 
 
 ## Overview
