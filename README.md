@@ -4,6 +4,11 @@ Project title: **SASA**
 
 Track 2: **DLT for Operations**
 
+Please find our submission links below:
+Pitch deck: https://drive.google.com/file/d/1I4TGvbNn5E2BMR8ZxC-AawAaKnPSz3Qs/view?usp=sharing 
+Ndanu's Certificate: https://certs.hashgraphdev.com/41c661fe-fe7a-4452-a49f-f9e16284cba5.pdf 
+Gatama's Certificate: https://certs.hashgraphdev.com/aad62f4e-db5b-4c8f-95b8-31fc4f51f8e6.pdf 
+
 ## Overview
 
 SASA is a real-time biogas monitoring system that simulates microcontroller-meter data, stores it immutably on the Hedera TestNet, and displays it in a React dashboard. It is designed for IoT, environmental monitoring, and DLT transparency use cases.
