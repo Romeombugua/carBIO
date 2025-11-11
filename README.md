@@ -294,9 +294,9 @@ npm start
 
 **Links**
 
-- - [**Hedera Portal**](https://portal.hedera.com/)
+-   - [**Hedera Portal**](https://portal.hedera.com/)
     - [**HashScan Explorer**](https://hashscan.io/testnet/topic/0.0.7152310)
-    - **Hedera Mirror Node API**
+    - [**Hedera mirror node API**](https://testnet.mirrornode.hedera.com/api/v1/topics/0.0.7152310/messages)
 
 **Technical Details**
 
